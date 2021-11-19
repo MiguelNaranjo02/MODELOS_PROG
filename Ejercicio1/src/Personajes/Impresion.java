@@ -10,7 +10,7 @@ package Personajes;
  * @author Miguel
  */
 public class Impresion {
-    public void porConsola(Plantilla plan){
+    public void porConsola(Plantilla plan){ //recuerdxe hacer esto
         System.out.println(plan.Raza);
         System.out.println(plan.OjosFinal);
         System.out.println(plan.AlturaFinal);
