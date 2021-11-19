@@ -1,23 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package Personajes;
-
 /**
  *
- * @author Miguel
+ * @authors Miguel Naranjo y Cristian Tuso
  */
+
+package Personajes;
+
 public class Impresion {
-    public void porConsola(Plantilla plan){ //recuerdxe hacer esto
-        System.out.println(plan.Raza);
-        System.out.println(plan.OjosFinal);
-        System.out.println(plan.AlturaFinal);
-        System.out.println(plan.EdadFinal);
-        System.out.println(plan.descripcion);
-        System.out.println(plan.CabelloFinal);
-        System.out.println(plan.PielFinal);
-        System.out.println(plan.armasFinal);
-    }
+	public void porConsola(Plantilla plan) {
+
+		System.out.println("El personaje es de raza " + plan.Raza);
+		System.out.println("El personaje tiene un tono de piel " + plan.PielFinal);
+		System.out.println("El color de cabello del personaje es " + plan.CabelloFinal);
+		System.out.println("Los ojos del personaje son de color " + plan.OjosFinal);
+		System.out.println("El personaje mide " + plan.AlturaFinal + " metros");
+		System.out.println("El personaje tiene " + plan.EdadFinal + " años");
+		System.out.println("El arma inicial del personaje es " + plan.armasFinal);
+		System.out.println("Descripcion del Personaje: " + plan.descripcion);
+	}
 }
