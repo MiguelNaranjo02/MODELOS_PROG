@@ -19,7 +19,7 @@ public class Personaje {
 		System.out.println("3.Humano");
 		Impresion impr = new Impresion();
 
-		int opc;
+		private int opc;
 		opc = Integer.parseInt(in.readLine());
 		switch (opc) {
 		case 1:

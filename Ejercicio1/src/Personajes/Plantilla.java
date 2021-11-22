@@ -10,63 +10,98 @@ import java.util.ArrayList;
 public abstract class Plantilla {
 //Se crean los atributos que usaran las clases hijas para guardar la informacion
 
-	int numRandom;
-	String[] colorOjos;
-	String[] colorCabello;
-	String[] colorPiel;
-	String[] armas;
-	String descripcion;
-	double[] altura;
-	int[] edad;
-	String Raza;
+	private int numRandom;
+	protected String[] colorOjos;
+	protected String[] colorCabello;
+	protected String[] colorPiel;
+	protected String[] armas;
+	protected double[] altura;
+	protected int[] edad;
+        private String descripcion;
+	private String Raza;
 // Se crean los arraylist con los que se manejara mejor la informacion del personaje
-	ArrayList<String> Ojos;
-	ArrayList<String> Cabello;
-	ArrayList<String> Piel;
-	ArrayList<String> arma;
+	protected ArrayList<String> Ojos;
+	protected ArrayList<String> Cabello;
+	protected ArrayList<String> Piel;
+	protected ArrayList<String> arma;
 
-	// Se crean atributos para guardar la informacion que sera enviada al servlet
-	String OjosFinal;
-	String CabelloFinal;
-	String PielFinal;
-	String armasFinal;
-	double AlturaFinal;
-	int EdadFinal;
+	// Se crean atributos para guardar la informacion que sera enviada a la consola
+	private String OjosFinal;
+	private String CabelloFinal;
+	private String PielFinal;
+	private String armasFinal;
+	private double AlturaFinal;
+	private int EdadFinal;
 
-	// Getters y setters de la informacion que sera enviada al servlet
-	public String getOjosFinal() {
-		return OjosFinal;
-	}
+    public String getRaza() {
+        return Raza;
+    }
 
-	public String getCabelloFinal() {
-		return CabelloFinal;
-	}
+    public void setRaza(String Raza) {
+        this.Raza = Raza;
+    }
 
-	public String getPielFinal() {
-		return PielFinal;
-	}
+    public String getDescripcion() {
+        return descripcion;
+    }
 
-	public String getArmasFinal() {
-		return armasFinal;
-	}
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 
-	public double getAlturaFinal() {
-		return AlturaFinal;
-	}
+    public String getOjosFinal() {
+        return OjosFinal;
+    }
 
-	public int getEdadFinal() {
-		return EdadFinal;
-	}
+    public void setOjosFinal(String OjosFinal) {
+        this.OjosFinal = OjosFinal;
+    }
 
-	public String getDescripcion() {
-		return descripcion;
-	}
+    public String getCabelloFinal() {
+        return CabelloFinal;
+    }
 
+    public void setCabelloFinal(String CabelloFinal) {
+        this.CabelloFinal = CabelloFinal;
+    }
+
+    public String getPielFinal() {
+        return PielFinal;
+    }
+
+    public void setPielFinal(String PielFinal) {
+        this.PielFinal = PielFinal;
+    }
+
+    public String getArmasFinal() {
+        return armasFinal;
+    }
+
+    public void setArmasFinal(String armasFinal) {
+        this.armasFinal = armasFinal;
+    }
+
+    public double getAlturaFinal() {
+        return AlturaFinal;
+    }
+
+    public void setAlturaFinal(double AlturaFinal) {
+        this.AlturaFinal = AlturaFinal;
+    }
+
+    public int getEdadFinal() {
+        return EdadFinal;
+    }
+
+    public void setEdadFinal(int EdadFinal) {
+        this.EdadFinal = EdadFinal;
+    }
+   
 	// Metodo Liskov que recibe un objeto plantilla, pero que en realidad recibira
 	// objetos
 	// que heredan de plantilla
 	// El metodo se encrga de obtener, randomizar y guardar la informacion que seria
-	// enviada al servlet
+	// enviada a la consola
 	public void Liskov(Plantilla plan) {
 		this.numRandom = (int) Math.floor(Math.random() * (plan.Ojos.size() - 1 - 0 + 1) + 0);
 		this.OjosFinal = plan.Ojos.get(numRandom);

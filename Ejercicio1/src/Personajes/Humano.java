@@ -26,7 +26,7 @@ public class Humano extends Plantilla {
 		armas = new String[3];
 		String[] armas = { "Espada de los Hombres", "Espada y Escudo", "Arco y Flechas" };
 		arma = new ArrayList<String>(Arrays.asList(armas));
-		descripcion = "Poco se dice de los hombres en los relatos de los Días Antiguos, se sabe "
+		setDescripcion("Poco se dice de los hombres en los relatos de los Días Antiguos, se sabe "
 				+ "que despertaron en Hildórien, en las regiones mas orientales de la Tierra Media"
 				+ " durante la Primera Edad del Sol. Los hombres llegaron a Beleriand, avanzada la"
 				+ " Primera Edad, sus vidas eran cortas ya que morían pronto, pero a diferencia de"
@@ -39,11 +39,11 @@ public class Humano extends Plantilla {
 				+ "(Batalla de la Llama Súbita) habría unos 25.000 habitantes distribuidos por la" + " región.\n"
 				+ "\n" + "Hay distinción entre los hombres propiamente dichos y otros seres humanoides "
 				+ "como los hobbits (que probablemente fueran hombres en sus orígenes) y los magos"
-				+ " que por su apariencia se pensó que eran hombres.";
+				+ " que por su apariencia se pensó que eran hombres.");
 
 		altura = new double[] { 1.60, 1.90 };
 		edad = new int[] { 20, 70 };
-		Raza = "Humano";
+		setRaza("Humano");
 
 	}
 

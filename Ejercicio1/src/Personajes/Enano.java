@@ -29,18 +29,18 @@ public class Enano extends Plantilla {
 		armas = new String[3];
 		String[] armas = { "Hacha", "Mazo", "Espada de Uruk-hai" };
 		arma = new ArrayList<String>(Arrays.asList(armas));
-		descripcion = "Son más bajos que cualquier otra raza, exceptuando a los hobbits"
-				+ " pese a ello son robustos, corpulentos y más fuertes y recios que el resto de las "
+		setDescripcion("Son mï¿½s bajos que cualquier otra raza, exceptuando a los hobbits"
+				+ " pese a ello son robustos, corpulentos y mï¿½s fuertes y recios que el resto de las "
 				+ "razas. Todos tienen barba, tanto hombres como mujeres, y el cortarsela es la mayor "
-				+ "vergÜenza y ofensa que se les que les puede hacer, mereciendo el odio y rencor de"
+				+ "vergï¿½enza y ofensa que se les que les puede hacer, mereciendo el odio y rencor de"
 				+ " toda su raza.\n" + "\n"
-				+ "Son grandes conocedores de la minería y orfebrería agobiados por la larga "
-				+ "labor de la busqueda y extracción de los minerales subterraneos. "
-				+ "Poseen una gran longevidad, llegando algunos a vivir alrededor de los 600 años.";
+				+ "Son grandes conocedores de la minerï¿½a y orfebrerï¿½a agobiados por la larga "
+				+ "labor de la busqueda y extracciï¿½n de los minerales subterraneos. "
+				+ "Poseen una gran longevidad, llegando algunos a vivir alrededor de los 600 aï¿½os.");
 
 		altura = new double[] { 1.20, 1.50 };
 		edad = new int[] { 50, 600 };
-		Raza = "Enano";
+		setRaza("Enano");
 
 	}
 }
