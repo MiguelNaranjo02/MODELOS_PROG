@@ -16,9 +16,9 @@ Principalmente se usaron los siguientes principios:
 * KISS (Keep It Simple & Stupid)
 
 ### Codigo
+Se encuentra en el siguiente link:
 [Codigo](https://github.com/MiguelNaranjo02/MODELOS_PROG/tree/master/Ejercicio1/src/Personajes "Codigo")
-[Codigo]
-(https://github.com/MiguelNaranjo02/MODELOS_PROG/tree/master/Ejercicio1/src/Personajes "Codigo")
+
 
 ### Diagrama de Clases
 [![DIAGRAMA DE CLASES EJERCICIO RAZAS](https://github.com/MiguelNaranjo02/MODELOS_PROG/blob/master/Ejercicio1/Personajes.jpeg "DIAGRAMA DE CLASES EJERCICIO RAZAS")](https://github.com/MiguelNaranjo02/MODELOS_PROG/blob/master/Ejercicio1/Personajes.jpeg "DIAGRAMA DE CLASES EJERCICIO RAZAS")
