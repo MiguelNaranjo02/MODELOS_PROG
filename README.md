@@ -1,6 +1,6 @@
-###EJERCICIO PRINCIPIOS DE DISEÑO - MODELOS DE PROGRAMACION 1
+EJERCICIO PRINCIPIOS DE DISEÑO - MODELOS DE PROGRAMACION 1
 Integrantes Grupo:
-								Miguel Angel Naranjo Joya 20201020037
+							Miguel Angel Naranjo Joya 20201020037
 								Cristian Camilo Tuso Mozo 20201020053 
 								
 ####Descripcion
