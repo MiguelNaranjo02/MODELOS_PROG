@@ -19,4 +19,4 @@ Principalmente se usaron los siguientes principios:
 (http://https://github.com/MiguelNaranjo02/MODELOS_PROG/tree/master/Ejercicio1 "Codigo")
 
 ### Diagrama de Clases
-[![Diagrama de Clases Ejercicio Menu razas](https://github.com/MiguelNaranjo02/MODELOS_PROG/blob/master/Ejercicio1/src/Personajes/Personajes.png "Diagrama de Clases Ejercicio Menu razas")](http://https://github.com/MiguelNaranjo02/MODELOS_PROG/blob/master/Ejercicio1/src/Personajes/Personajes.png "Diagrama de Clases Ejercicio Menu razas")
+[![DIAGRAMA DE CLASES EJERCICIO RAZAS](https://github.com/MiguelNaranjo02/MODELOS_PROG/blob/master/Ejercicio1/Personajes.jpeg "DIAGRAMA DE CLASES EJERCICIO RAZAS")](https://github.com/MiguelNaranjo02/MODELOS_PROG/blob/master/Ejercicio1/Personajes.jpeg "DIAGRAMA DE CLASES EJERCICIO RAZAS")
