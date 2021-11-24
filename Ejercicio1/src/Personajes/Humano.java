@@ -7,8 +7,8 @@ package Personajes;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-//Clase Humano que hereda de Plantilla
-public class Humano extends Plantilla {
+//Clase Humano que hereda de Razas
+public class Humano extends Razas {
 //Constructor que inicializa y guarda la informacion especifica del Humano en los arreglos
 
     public Humano() {

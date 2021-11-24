@@ -7,8 +7,8 @@ package Personajes;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-//Raza elfo que hereda de Plantilla
-public class Elfo extends Plantilla {
+//Raza elfo que hereda de Razas
+public class Elfo extends Razas {
 
     // Constructor que inicializa y guarda la informacion especifica del Elfo en los
     // arreglos

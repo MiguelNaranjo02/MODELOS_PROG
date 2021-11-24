@@ -6,7 +6,7 @@ package Personajes;
 
 import java.util.ArrayList;
 
-public abstract class Plantilla {
+public abstract class Razas {
 //Se crean los atributos que usaran las clases hijas para guardar la informacion
 
     private int numRandom;
@@ -101,7 +101,7 @@ public abstract class Plantilla {
     // que heredan de plantilla
     // El metodo se encrga de obtener, randomizar y guardar la informacion que seria
     // enviada a la consola
-    public void Liskov(Plantilla plan) {
+    public void Liskov(Razas plan) {
         this.numRandom = (int) Math.floor(Math.random() * (plan.Ojos.size() - 1 - 0 + 1) + 0);
         this.OjosFinal = plan.Ojos.get(numRandom);
 

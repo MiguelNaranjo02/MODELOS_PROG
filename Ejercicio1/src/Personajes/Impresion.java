@@ -6,7 +6,7 @@ package Personajes;
 
 public class Impresion {
 
-    public void porConsola(Plantilla plan) {
+    public void porConsola(Razas plan) {
 
         System.out.println("El personaje es de raza " + plan.getRaza());
         System.out.println("El personaje tiene un tono de piel " + plan.getPielFinal());

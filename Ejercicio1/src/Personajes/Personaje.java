@@ -20,25 +20,22 @@ public class Personaje {
 
         int opc;
         opc = Integer.parseInt(in.readLine());
+        Razas planti = null;
         switch (opc) {
             case 1:
-                Elfo elf = new Elfo();
-                elf.Liskov(elf);
-                impr.porConsola(elf);
+                planti = new Elfo();
                 break;
             case 2:
-                Enano enan = new Enano();
-                enan.Liskov(enan);
-                impr.porConsola(enan);
+                planti = new Enano();
                 break;
             case 3:
-                Humano huma = new Humano();
-                huma.Liskov(huma);
-                impr.porConsola(huma);
+                planti = new Humano();
                 break;
             default:
 
         }
+        planti.Liskov(planti);
+        impr.porConsola(planti);
 
     }
 }

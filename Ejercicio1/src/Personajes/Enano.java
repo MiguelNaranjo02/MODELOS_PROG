@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 //Raza enano que hereda de plantilla
-public class Enano extends Plantilla {
+public class Enano extends Razas {
 
     // Constructor que inicializa y guarda la informacion especifica del Enano en
     // los arreglos
